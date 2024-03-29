@@ -1,0 +1,211 @@
+/* @media screen and (min-width:1440px) and (max-width:2560px) { */
+    
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+body{
+    background-color: aliceblue;
+}
+*{  
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 100px;
+    /* border-radius: 10px; */
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    
+}
+.nav p:hover{
+   background-color:aquamarine ;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.nav img{
+    height: 40px;
+    margin-left: -90px;
+}
+.nav input{
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+    outline: 0px;
+    height: 60px;
+    width: 250px;
+    font-size: 17px;
+    text-align: center;
+}
+.num-facts{
+font-size: 20px;
+color: black;
+}
+.title1{
+    font-size: 34px;
+    font-family: Arial;
+    flex: 1;
+    color:rgb(68, 207, 239);
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600; 
+  
+}
+.nav button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.output{
+    border: none;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    visibility: hidden;
+}
+.output input{
+height: 64px;
+width: 250px;
+border: none;
+background-color: rgb(210, 232, 252);
+border-radius: 10px;
+font-size: 18px;
+outline: 0px;
+text-align: center;
+}
+.output img{
+    height: 40px;  
+    
+}
+.output button{
+    border: none;
+    background-color:aliceblue ;
+    position: relative;
+    top: 17px;
+    left: 20px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.text{
+    height: 100%;
+    width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size:26px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.md{
+    border: none;
+    display: grid;
+    grid-template-columns:30rem 30rem;
+    grid-template-rows: 30rem 30rem 30rem 30rem 30rem;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+}
+span{
+    border-radius: 10px;
+    display: grid;
+    background-color: white;
+   margin: 10px;
+}
+.title{
+    font-size: 20px;
+}
+.img1{
+    background-image: url(./imgs/hundred-dollar-bills.webp);
+    height: 200px;
+    background-size: cover;
+}
+.img2{
+    background-image: url(./imgs/2\ prime.webp);
+    height: 200px;
+    background-size: cover;
+}
+.img3{
+    background-image:url(./imgs/pythagoras-statue-in-rome.webp);
+    height: 200px;
+    background-size: cover;
+}
+.img4{
+    background-image:url(./imgs/clock.webp);
+    height: 200px;
+    background-size: cover;
+}
+.img5{
+    background-image:url(./imgs/globe-and-map.webp);
+    height: 200px;
+    background-size: cover;
+}
+.img6{
+    background-image:url(./imgs/roman-numerals-carved.webp);
+    height: 200px;
+    background-size: cover;  
+}
+.img7{
+    background-image:url(./imgs/number-0.webp);
+    height: 200px;
+    background-size: cover;   
+}
+.img8{
+    background-image:url(./imgs/Fun+facts+about+leap+years.jpg);
+    height: 200px;
+    background-size: cover;  
+}
+.img9{
+    background-image:url(./imgs/999.webp);
+    height: 200px;
+    background-size: cover;    
+}
+.img10{
+    background-image:url(./imgs/Pizza\ img.webp);
+    height: 200px;
+    background-size: cover;    
+}
+
+footer{
+    border: 1px solid;
+    display: flex;
+    gap: 20px;
+    height: 17rem;
+    width: 100%;
+    background-color: rgb(35, 34, 34);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
